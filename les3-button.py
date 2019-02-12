@@ -1,12 +1,14 @@
 import time
+import requests
 from gpiozero import LED, Button
 
 led = LED(17)
-button = Button(3)
+button = Button(4)
 
 
 def pressed():
     led.on()
+    requests.get('http://192.168.10.100:8080/count')
 
 
 def released():
