@@ -4,6 +4,7 @@
 
 git clone https://github.com/MaartenS/RodenborchRaspberryPi.git
 
-*instaleer pyquery*
+*instaleer pyquery & requests*
 
-sudo pip install pyquery
+sudo pip3 install pyquery requests
+
